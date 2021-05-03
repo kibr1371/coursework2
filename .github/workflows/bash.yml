@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: message
-      run: echo "Hello ${{ github.event.inputs.name }}"
+      run: echo "Hello my teacher"
 
 
 #  - name: print-message
