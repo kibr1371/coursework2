@@ -15,7 +15,6 @@ jobs:
     steps:
     - name: message
       run: echo "Hello my teacher"
-      run: bash ls -ll
 
 
 
