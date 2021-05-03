@@ -15,16 +15,8 @@ jobs:
     steps:
     - name: message
 #      run: echo "Hello my teacher"
-
-
-#  - name: print-message
-#    inputs:
-#      parameters:
-#      - name: message
-     container:
-       image: alpine:latest
-       command: [sh, -c]
-       args: ["echo result was: {{inputs.parameters.message}}"]
+      command: [bash, -c]
+      args: ["echo result was: {{inputs.parameters.message}}"]
 
 
 
