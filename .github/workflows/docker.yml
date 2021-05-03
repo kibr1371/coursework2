@@ -29,8 +29,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-#          tags: kibr1371/coursework:latest
-          tags: ${{ secrets.DOCKERREPO }}
+          tags: kibr1371/coursework2:latest
+#          tags: ${{ secrets.DOCKERREPO }}
           build-args: |
               SITE=${{ secrets.SITE }}
       -
