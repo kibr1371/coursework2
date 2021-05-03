@@ -14,9 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: message
-#      run: echo "Hello my teacher"
-      command: [bash, -c]
-      args: ["echo result was: {{inputs.parameters.message}}"]
+      run: echo "Hello my teacher"
 
 
 
